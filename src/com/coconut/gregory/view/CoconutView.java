@@ -16,6 +16,7 @@ public class CoconutView {
         Coconut coco = new Coconut(true, weight);
         controller.insert(coco);
 
+        tc.close();
         
         
 
